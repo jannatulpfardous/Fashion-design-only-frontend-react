@@ -35,29 +35,29 @@ const App = () => {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path='/home'>
+          <Route  path='/home'>
             <Home />
           </Route>
-          <Route exact path="/education">
+          <Route  path="/education">
             <Education />
 
           </Route>
 
 
 
-          <Route exact path='/services'>
+          <Route path='/services'>
             <Services />
 
           </Route>
-          <Route exact path='/addmission'>
+          <Route  path='/addmission'>
             <Addmission />
 
           </Route>
-          <Route exact path='/about'>
+          <Route path='/about'>
             <About />
 
           </Route>
-          <Route exact path='*'>
+          <Route  path='*'>
             <NotFound />
 
           </Route>
