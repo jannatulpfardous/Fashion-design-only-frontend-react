@@ -1,0 +1,111 @@
+.serviceBox {
+    /* font-family: "Poppins", sans-serif; */
+    text-align: center;
+    padding: 0 20px 60px;
+    margin: 5px 0 0 5px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .serviceBox:before {
+    content: "";
+    background-color: rgb(252, 243, 250);
+    border-bottom: 30px solid rgb(24, 22, 22);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(202, 142, 142, 0.1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    bottom: 20px;
+    z-index: -1;
+  }
+  /* .serviceBox .service-icon {
+     color: #68476b; 
+    background-color: rgb(187, 43, 43);
+    font-size: 35px;
+    text-align: center;
+    height: 74px;
+    width: 140px;
+    padding: 7px;
+    margin: 0 auto 30px;
+    border-radius: 25px;
+    position: relative;
+  }
+  .serviceBox .service-icon:before {
+    content: "";
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 25px;
+    bottom: -10px;
+  } */
+  /* .serviceBox .service-icon span {
+    background-color: #fff;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+  } */
+  .serviceBox .title {
+    color: rgb(214, 14, 114);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+  }
+  .serviceBox .description {
+    color: rgb(231, 222, 222);
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+  }
+  .serviceBox.magenta:before {
+    border-color: #6e4c59;
+    color:rgba(76, 57, 218, 0.26)
+  }
+  .serviceBox.magenta .service-icon,
+  .serviceBox.magenta .service-icon:before {
+    color: #6e4c59;
+    background-color: #6e4c59;
+  }
+  .serviceBox.magenta .title {
+    color: #6e4c59;
+  }
+  
+  
+  
+  .serviceBox.pink:before {
+    border-color: #04438b;
+  }
+  .serviceBox.pink .service-icon,
+  .serviceBox.pink .service-icon:before {
+    color: #04438b;
+    background-color: #04438b;
+  }
+  .serviceBox.pink .title {
+    color: #04438b;
+  }
+  .serviceBox.purple:before {
+    border-color: #4d6457;
+  }
+  .serviceBox.purple .service-icon,
+  .serviceBox.purple .service-icon:before {
+    color: #4d6457;
+    background-color: #4d6457;
+  }
+  .serviceBox.purple .title {
+    color: #415a2c86;
+  }
+  @media only screen and (max-width: 990px) {
+    .serviceBox {
+      margin: 0 0 30px;
+    }
+  }
+  

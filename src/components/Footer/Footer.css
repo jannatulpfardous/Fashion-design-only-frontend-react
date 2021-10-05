@@ -1,0 +1,36 @@
+.icon {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(46, 46, 46);
+    
+    color: rgb(155, 155, 155);
+    font-size: 30px;
+  }
+  .icon:hover {
+    background-color: rgb(214, 14, 114);
+  }
+  .footer-menu {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .footer-menu:hover {
+    color: rgb(214, 14, 114);
+  }
+  .footer-input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color:rgba(245, 245, 245, 0.801);
+  }
+  .footer-container {
+    background-color: #030303f6;
+    padding: 50px;
+    color: rgb(216, 209, 209);
+  }
+  .foter-phone-icon {
+    /* font-size: 30px; */
+    color: rgb(194, 85, 140);
+  }
+ 
